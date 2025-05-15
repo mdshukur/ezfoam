@@ -1,0 +1,42 @@
+/* Responsive styles */
+@media (max-width: 768px) {
+    h1, h2,
+    .h1, .h2 {
+      margin-top: 0;
+      margin-bottom: 0;
+      line-height: 1.2;
+    }
+    
+    h1, .h1 {
+      font-weight: 700;
+      font-size:30px;
+    }
+    
+    h2, .h2 {
+      font-weight: 700;
+      font-size: 25px;
+    }
+    .brand-name img {
+      width: 50%;
+    }
+    /*slider css*/
+  .c-item {
+    height: 450px;
+  }
+  
+.why-padding{
+  padding: 40px 15px;
+  padding-right: 0px;
+}
+img.why-img {
+  margin-left: 0px;
+  margin-bottom: 10px;
+}
+.contact-info {
+  padding: 20px;
+}
+p.cetc_pra {
+  width: 98%;
+}
+  
+  }
